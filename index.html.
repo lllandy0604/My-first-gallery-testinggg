@@ -10,7 +10,8 @@
     section { padding: 20px; }
     .gallery { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
     .gallery-item { width: 220px; text-align: center; }
-    .gallery-item img { width: 100%; border: 1px solid #ccc; border-radius: 4px; }
+    .gallery-item img { width: 100%; border: 1px solid #ccc; border-radius: 4px; transition: transform 0.3s; }
+    .gallery-item img:hover { transform: scale(1.05); }
     footer { background: #333; color: white; text-align: center; padding: 10px; }
   </style>
 </head>
@@ -26,7 +27,7 @@
 
   <section id="about">
     <h2>关于我</h2>
-    <p>你好，我是Landy，一名热爱创作的艺术爱好者。欢迎浏览我的作品集。</p>
+    <p>你好，我是 Landy，一名热爱创作的艺术爱好者。欢迎浏览我的作品集。</p>
   </section>
 
   <section id="works">
